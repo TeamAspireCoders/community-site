@@ -1,2 +1,27 @@
-// You can also use scss instead of css
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
+
+// Others Styles
 @import url('./style.css');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.dropdown-item {
+  --bs-dropdown-link-hover-bg: rgb(226 232 240);
+}
+
+.gradient-text {
+  display: inline;
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: #2563eb;
+  --tw-gradient-to: #9333ea;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
