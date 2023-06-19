@@ -158,3 +158,6 @@ body {
       }
   }
   
+.hovereffect:hover{
+  transform: scale(1.025);
+}
